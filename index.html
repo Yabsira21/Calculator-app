@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <h2>calc</h2>
+        <div class="side-ele">
+          <h3>THEME</h3>
+          <div class="side-toggle-container">
+            <div class="toggle-nums">
+              <p>1</p>
+              <p>2</p>
+              <p>3</p>
+            </div>
+            <div class="container">
+              <!-- <label for="check" class="button"></label> -->
+              <div id="theme-1" class="toggle-btn "></div>
+              <div id="theme-2" class="toggle-btn hidden"></div>
+              <div id="theme-3" class="toggle-btn hidden"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="result">
+        <input class="screen" type="text" />
+      </section>
+      <section class="grid">
+        <button class="pushable">
+          <span class="front numbers"> 7 </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 8 </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 9 </span>
+        </button>
+        <button class="pushable del_clr_bg">
+          <span class="front del_clr delete" id="del"> DEL </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 4 </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 5 </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 6 </span>
+        </button>
+        <button class="pushable">
+          <span class="front op">+</span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 1 </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 2 </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 3 </span>
+        </button>
+        <button class="pushable">
+          <span class="front op">-</span>
+        </button>
+        <button class="pushable">
+          <span class="front pt"> . </span>
+        </button>
+        <button class="pushable">
+          <span class="front numbers"> 0 </spadel_clrn>
+        </button>
+        <button class="pushable">
+          <span class="front op">/</span>
+        </button>
+        <button class="pushable">
+          <span class="front op">x</span>
+        </button>
+        <button class="pushable del_clr_bg">
+          <span class="front del_clr reset"> RESET </span>
+        </button>
+        <button class="pushable" id="sp_key_bg">
+          <span class="front" id="sp_key"> = </span>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
